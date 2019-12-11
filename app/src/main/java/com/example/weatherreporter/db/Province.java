@@ -1,6 +1,6 @@
 package com.example.weatherreporter.db;
 
-public class Province extends DataSupport{
+public class Province {
     private int id;
     private String provinceName;
     private int provinceCode;
@@ -22,7 +22,6 @@ public class Province extends DataSupport{
     public int getProvinceCode() {
         return provinceCode;
     }
-
     public void setProvinceCode(int provinceCode) {
         this.provinceCode = provinceCode;
     }
